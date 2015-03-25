@@ -1,0 +1,24 @@
+{
+    "name": "best_friends",
+    "_version": 1.0,
+    "tables": [
+        {
+            "name": "best_friends",
+            "columns":[
+                { "name": "testdata", "dataType": "REAL", "_unit": "lux" }
+            ]
+        }
+    ],
+    "dependencies": [
+        [
+            {
+                "name": "smsmmsmeta"
+            }
+        ],
+        [
+            {
+                "name": "module_calls_meta"
+            }
+        ]
+    ]
+}
