@@ -5,7 +5,8 @@
         {
             "name": "best_friends",
             "columns":[
-                { "name": "testdata", "dataType": "REAL", "_unit": "lux" }
+                { "name": "name", "dataType": "TEXT"},
+                { "name": "value", "dataType": "REAL"}
             ]
         }
     ],
